@@ -1,0 +1,48 @@
+body{
+    background: rgb(79,85,188);
+    background: 
+        linear-gradient(90deg, 
+            rgba(79,85,188,1) 0%, 
+            rgba(103,79,188,1) 20%, 
+            rgba(111,81,188,1) 40%, 
+            rgba(121,79,188,1) 60%, 
+            rgba(171,82,169,1) 80%, 
+            rgba(155,79,143,1) 100%);
+}
+nav{
+    background: rgb(8,6,41);
+    background:
+        linear-gradient(58deg, 
+            rgba(8,6,41,1) 0%, 
+            rgba(41,0,104,1) 31%, 
+            rgba(88,0,185,1) 64%, 
+            rgba(61,12,116,1) 100%);
+    border-radius: 20px;
+    font-size: 2em;
+    display: flex;
+}
+.navlist{
+    display: inline;
+    align-items: center;
+    background:rgba(128, 128, 128, 0.39) ;
+    border-radius: 5px;
+}
+nav, a:hover{
+    color: grey;
+    background-color: hotpink;
+}
+footer{
+    background: black;
+    text-align: center;
+    color: white;
+    height: 5em;
+    line-height: 5em;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    display:block;
+    align-items: center;
+  
+}
+footer, a:hover{
+    color: whitesmoke;
+}
