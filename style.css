@@ -8,6 +8,7 @@ body{
             rgba(121,79,188,1) 60%, 
             rgba(171,82,169,1) 80%, 
             rgba(155,79,143,1) 100%);
+     font-family: 'Cinzel', serif;
 }
 nav{
     background: rgb(8,6,41);
@@ -20,16 +21,28 @@ nav{
     border-radius: 20px;
     font-size: 2em;
     display: flex;
+    text-align: right;
+    height: 5em;
 }
 .navlist{
     display: inline;
-    align-items: center;
-    background:rgba(128, 128, 128, 0.39) ;
+    background:rgba(128, 128, 128, 0.013) ;
     border-radius: 5px;
+    /* margin: 0.6em 1em; */
+    padding: 1em 1em;
+    align-items: inherit;
 }
-nav, a:hover{
-    color: grey;
-    background-color: hotpink;
+.navlist a{
+    color: black;
+    text-align: right;
+}
+.navlist a:hover{
+    color: rgb(79,85,188);
+    text-align: right;
+}
+.logo{
+    display: flex;
+    /* margin: 1em 2em; */
 }
 footer{
     background: black;
