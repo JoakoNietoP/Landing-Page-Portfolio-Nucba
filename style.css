@@ -21,7 +21,7 @@ header{
     border-radius: 20px;
     font-size: 1em;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 nav{
     justify-content: flex-end;
