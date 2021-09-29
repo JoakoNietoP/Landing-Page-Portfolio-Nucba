@@ -10,7 +10,7 @@ body{
             rgba(155,79,143,1) 100%);
      font-family: 'Cinzel', serif;
 }
-nav{
+header{
     background: rgb(8,6,41);
     background:
         linear-gradient(58deg, 
@@ -19,29 +19,44 @@ nav{
             rgba(88,0,185,1) 64%, 
             rgba(61,12,116,1) 100%);
     border-radius: 20px;
-    font-size: 2em;
+    font-size: 1em;
     display: flex;
-    text-align: right;
-    height: 5em;
+    justify-content: space-around;
 }
-.navlist{
-    display: inline;
+nav{
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+ul{
+    display: flex;
     background:rgba(128, 128, 128, 0.013) ;
     border-radius: 5px;
     margin: 0.3em 1em;
     padding: 1em 1em;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: flex-end;
+    
+}
+li{
+    display: flex;
+    align-self: flex-end;
+    width: 5em;
+    margin: 3%;
+    padding: 3%;
 }
 .navlist a{
     color: black;
-    text-align: right;
 }
 .navlist a:hover{
-    color: rgb(79,85,188);
-    text-align: right;
+    color: rgb(79,85,188)
 }
 .logo{
-    display: flex;
-    /* margin: 1em 2em; */
+   width: 9%;
+   height: 9%;
+   /* margin: 1%;
+   padding: 1%; */
 }
 footer{
     background: black;
