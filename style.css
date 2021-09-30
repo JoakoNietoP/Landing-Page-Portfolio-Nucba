@@ -112,10 +112,57 @@ button {
     background-color: darkblue;
 }
 
-.elegime {
+.elegime, .metodo {
     background-color: lightgray;
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+   
 }
 
+.beneficios{
+    background-color: lightpink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1%;
+    padding: 1%;
+    
+
+}
+.beneficio{
+    background-color: lightsalmon;
+    justify-content: center;
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+    width: 33%;
+    height: 10em;
+}
+
+
+.pasos{
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.paso{
+    background-color: slateblue;
+    justify-content: center;
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+    width: 25%;
+    height: 16em;
+}
+
+.icon i{
+    font-size: 2em;
+}
+p {
+    text-align: center;
+}
 
 
 footer{
