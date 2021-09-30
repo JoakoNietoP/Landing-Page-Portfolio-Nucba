@@ -53,8 +53,8 @@ li{
     color: rgb(79,85,188)
 }
 .logo{
-   width: 9%;
-   height: 9%;
+   width: 12%;
+   height: 12%;
    /* margin: 1%;
    padding: 1%; */
 }
@@ -138,6 +138,9 @@ button {
     padding: 1%;
     width: 33%;
     height: 10em;
+    border-radius: 10px;
+    border: rgba(0, 0, 0, 0.144) dotted 0.5px;
+    box-shadow: rgba(0, 0, 0, 0.678) 10px 10px;
 }
 
 
@@ -155,6 +158,9 @@ button {
     padding: 1%;
     width: 25%;
     height: 16em;
+    border-radius: 5%;
+    border: rgba(0, 0, 0, 0.144) dotted 0.5px;
+    box-shadow: rgba(0, 0, 0, 0.774) 10px 10px;
 }
 
 .icon i{
